@@ -10,7 +10,7 @@ import by.tms.lesson21Calculator.web.CalculatorHttpServer;
 
 public class Main {
     public static void main(String[] args) {
-        CalculatorHttpServer calculatorHttpServer = new CalculatorHttpServer();
-        calculatorHttpServer.go();
+        Application application = new WebAplication();
+        application.run();
     }
 }
