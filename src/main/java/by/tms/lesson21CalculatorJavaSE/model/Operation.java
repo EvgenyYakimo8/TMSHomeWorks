@@ -1,4 +1,4 @@
-package by.tms.lesson21Calculator.model;
+package by.tms.lesson21CalculatorJavaSE.model;
 
 public class Operation {
     private double num1, num2, result;

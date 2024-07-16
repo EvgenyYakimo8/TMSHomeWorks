@@ -1,8 +1,8 @@
-package by.tms.lesson21Calculator.service;
+package by.tms.lesson21CalculatorJavaSE.service;
 
-import by.tms.lesson21Calculator.model.Operation;
-import by.tms.lesson21Calculator.storage.FIleOperationStorage;
-import by.tms.lesson21Calculator.storage.OperationStorage;
+import by.tms.lesson21CalculatorJavaSE.model.Operation;
+import by.tms.lesson21CalculatorJavaSE.storage.FIleOperationStorage;
+import by.tms.lesson21CalculatorJavaSE.storage.OperationStorage;
 
 import java.util.List;
 

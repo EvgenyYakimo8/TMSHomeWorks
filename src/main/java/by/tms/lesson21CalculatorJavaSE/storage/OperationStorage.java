@@ -1,6 +1,6 @@
-package by.tms.lesson21Calculator.storage;
+package by.tms.lesson21CalculatorJavaSE.storage;
 
-import by.tms.lesson21Calculator.model.Operation;
+import by.tms.lesson21CalculatorJavaSE.model.Operation;
 
 import java.util.List;
 

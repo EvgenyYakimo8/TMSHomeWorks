@@ -1,4 +1,4 @@
-package by.tms.lesson21Calculator.console;
+package by.tms.lesson21CalculatorJavaSE.console;
 
 public class ConsoleWriter {
     public void write(String text) {

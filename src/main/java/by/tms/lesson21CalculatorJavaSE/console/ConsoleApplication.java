@@ -1,9 +1,8 @@
-package by.tms.lesson21Calculator;
+package by.tms.lesson21CalculatorJavaSE.console;
 
-import by.tms.lesson21Calculator.console.ConsoleReader;
-import by.tms.lesson21Calculator.console.ConsoleWriter;
-import by.tms.lesson21Calculator.model.Operation;
-import by.tms.lesson21Calculator.service.OperationService;
+import by.tms.lesson21CalculatorJavaSE.Application;
+import by.tms.lesson21CalculatorJavaSE.model.Operation;
+import by.tms.lesson21CalculatorJavaSE.service.OperationService;
 
 import java.util.List;
 
@@ -13,7 +12,7 @@ public class ConsoleApplication implements Application {
     private final OperationService operationService = new OperationService();
 
     @Override
-    public double run() {
+    public void run() {
         Operation execute = null;
         while (true) {
             consoleWriter.write("Enter num1:");
@@ -44,6 +43,5 @@ public class ConsoleApplication implements Application {
                 break;
             }
         }
-        return execute.getResult();
     }
 }

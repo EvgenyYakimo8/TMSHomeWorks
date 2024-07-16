@@ -1,4 +1,4 @@
-package by.tms.lesson21Calculator.console;
+package by.tms.lesson21CalculatorJavaSE.console;
 
 import java.util.Scanner;
 
